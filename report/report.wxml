@@ -1,0 +1,10 @@
+
+<view class="endBorder" style="width:100%">
+  <textarea bindblur="bindTextAreaBlur" style="height:400rpx" placeholder="请输入举报内容" />
+</view> 
+<view class="wether">
+  <label>
+        <checkbox  />匿名举报
+  </label>
+</view>
+<button class="oneButton"  type="primary" style="width:60%" >提交</button>

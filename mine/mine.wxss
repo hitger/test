@@ -1,0 +1,30 @@
+/* pages/mine/mine.wxss */
+.backgrounds{
+  position: relative;
+}
+.head{
+  position: relative;
+  border-radius: 50%;
+  height:200rpx;
+  width:200rpx;
+  left: 60rpx;
+  bottom: 210rpx;
+
+}
+
+.portrait{
+  border-radius: 50%;
+  height:200rpx;
+  width:200rpx;
+}
+.name{
+  position: relative;
+  left: 280rpx;
+  bottom: 350rpx;
+  font-size: 50rpx;
+}
+
+.functions{
+  position: relative;
+  bottom: 275rpx;
+}

@@ -1,0 +1,5 @@
+.first{
+  height: 30%;
+  width: 100%;
+  border: brown;
+}

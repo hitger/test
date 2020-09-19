@@ -1,0 +1,155 @@
+
+.projectNumber{
+  position: relative;
+  font-size: 20rpx;
+}
+
+
+.initiatorname{
+  border-bottom-color: cornflowerblue;
+  border-bottom-width: 4rpx;
+  border-bottom-style: solid;
+}
+
+.realyAccount{
+  position: relative;
+  height:300rpx;
+  border-bottom-color: cornflowerblue;
+  border-bottom-width: 4rpx;
+  border-bottom-style: solid;
+}
+
+.report{
+  position: relative;
+  font-size: 35rpx;
+  color: brown;
+  bottom: 130rpx;
+  left:650rpx;
+}
+
+.Amount{
+  position: relative;
+  color: brown;
+}
+
+.content{
+  border-bottom-color: cornflowerblue;
+  border-bottom-width: 4rpx;
+  border-bottom-style: solid;
+  
+}
+
+.details{
+  font-size: 30rpx;
+  color: rgb(94, 96, 97);
+}
+
+.materialsTitle{
+  border-left-color: forestgreen;
+  border-left-width: 8rpx;
+  border-left-style: solid;
+}
+
+.comment{
+  border-bottom-color: rgb(8, 8, 8);
+  border-bottom-width: 4rpx;
+  border-bottom-style: solid;
+  padding-top: 2%;
+}
+
+.commenttitle{
+  border-left-color: forestgreen;
+  border-left-width: 8rpx;
+  border-left-style: solid;
+}
+
+
+.head{
+  position: relative;
+  
+
+}
+.portrait{
+  border-radius: 50%;
+  height:80rpx;
+  width:80rpx;
+}
+.name{
+  position: relative;
+  color: rgb(4, 81, 117);
+  bottom: 65rpx;
+  left: 100rpx;
+  font-size: 30rpx;
+}
+.commentContent{
+  position: relative;
+  bottom: 30rpx;
+  
+  font-size: 33rpx;
+}
+
+.chat{
+  position: relative;
+  width: 40rpx;
+  height: 40rpx;
+  display: flex;
+  justify-content: flex-end;
+  bottom: 280rpx;
+  left:650rpx;
+}
+
+.theExamine{
+  position: relative;
+  bottom: 80rpx;
+  font-size: 35rpx;
+  color: rgb(56, 233, 50);
+}
+
+.examine{
+  position: relative;
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.import{
+  position: relative;
+  bottom: 130rpx;
+  display: flex;
+  justify-content: flex-end;
+  right: 150rpx;
+}
+
+.fund{
+  border:4rpx solid rgb(5, 5, 5);
+  width:200rpx;
+}
+
+.oneButton{
+  position: relative;
+  bottom: 195rpx;
+  left: 605rpx;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inputRoom {
+  width: 100%;
+  height: 8%;
+  border-top: 1px solid #cdcdcd;
+  background-color: #f8f5f5;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  font-size: 35rpx;
+ }
+
+ input {
+  width: 300rpx;
+  background-color: #fff;
+  border-color: cadetblue;
+  border-style: solid;
+  border-width: 4rpx;
+  font-size: 28rpx;
+  color: #444;
+ }

@@ -1,0 +1,22 @@
+/* pages/feedback/feedback.wxss */
+.weui-cell weui-cell_input{
+  border:4rpx solid rgb(5, 5, 5);
+  height: 100rpx;
+  width: 100%;
+}
+.satisfaction{
+  display:flex;
+  flex-basis: 50rpx;
+  padding-right: 3%;
+  padding-bottom: 3%;
+
+}
+
+
+
+.contentTitle{
+border-left-color: forestgreen;
+border-left-width: 8rpx;
+border-left-style: solid;
+}
+

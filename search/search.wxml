@@ -1,0 +1,6 @@
+<view class="weui-cell weui-cell_input">
+        <input class="search"  placeholder="搜索"/>
+      </view>
+    <view class="oneblock demo-test-1"  >
+    <test>第一个模块项目测试</test>
+    </view>

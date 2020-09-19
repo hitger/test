@@ -1,0 +1,37 @@
+<view>
+  <test class="selection">反馈的平台：</test>
+      <label>
+        <checkbox  />app
+      </label>
+      <label>
+        <checkbox  />小程序
+      </label>
+      <label>
+        <checkbox  />官网
+      </label>
+</view>
+<view style="width:100%">满意程度:</view>
+<view class="group-radio" >
+   <radio-group name="radio">
+  <label class="satisfaction">
+    <radio value="radio1"/>  非常满意
+  </label>
+  <label class="satisfaction">
+    <radio  /> 满意
+  </label >
+  <label class="satisfaction">
+    <radio  /> 一般般 
+  </label>
+  <label class="satisfaction">
+    <radio  /> 差
+  </label>
+  <label class="satisfaction">
+    <radio  /> 非常差
+  </label>
+  </radio-group>
+</view>
+<view class="contentTitle" style="width:100%"> 反馈内容： </view>
+<view style="width:100%">
+  <textarea bindblur="bindTextAreaBlur" style="height:300rpx" placeholder="请输入您的建议" />
+</view>
+<button class="oneButton"  type="primary" style="width:60%" >提交</button>

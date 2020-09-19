@@ -1,0 +1,84 @@
+<!--筹款项目页面-->
+<view>
+<scroll-view scroll-y="true" style="height:1100rpx" >
+<view class="scrolls" >
+  <view class="title"style="width:100%">
+    <test class="titleWritten">标题:{{titleName}}</test>
+    <test class="projectNumber">筹款编码:{{number}}</test>
+  </view>
+  <view class="initiatorname"style="width:100%">
+    <test class="nameWritten">筹款人:{{initiator}}</test>
+  </view>
+  <view class="realyAccount" >
+    <view style="width:100%">
+      <test>申请筹款总额:</test>
+      <test class="Amount">{{appliesMoney}}元 </test>
+    </view>
+    <view style="width:100%">
+      <test>捐款总金额:{{acountMoney}}元 </test>
+    </view>
+    <view  style="width:100%">
+      <test>已捐款人数:{{people}}人</test>
+    </view>
+    <view style="width:100%">
+      <test>剩余资金:{{residueMoney}}元 </test>
+    </view>
+    <view class="report" catchtap="oneReport">
+      <test>举报</test>
+      <icon type="warn" size="14"></icon>
+    </view>
+    <view>
+    <image class="chat" src="/images/message.png" mode="scaleToFill" catchtap="theCatch"></image>
+    </view>
+    <view class="theExamine">
+    <image class="examine" src="/images/goFor.png" mode="scaleToFill"></image>
+    查看捐助金去向
+    </view>
+    <view class="import">
+      <input class="fund"  placeholder="输入金额"> </input>
+    </view>
+    <button class="oneButton"  type="primary" size="mini"  >捐款</button>
+  </view>
+  <view style="width:100%">
+    <test>筹款原因:</test>
+  </view>
+  <view class="content"style="width:100%">
+    <test class="details">{{matter}}</test>
+  </view>
+  
+  <test class="materialsTitle">证明材料</test>
+  <view class="page-section page-section-spacing swiper" style="height:400rpx;width:100%">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height:400rpx;width:100%">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item {{item}}">
+            <image src="{{item}}" style="width: 100%" mode="scaleToFill"></image>
+            </view>
+          </swiper-item>
+        </block>
+      </swiper>
+  </view>
+  <view class="commenttitle">
+    <test>全部评论</test>
+  </view>
+  <view class="comment" wx:for="{{contentItems}}">
+    <view class="first" style="width:100%">
+      <view class = "head">
+        <image class="portrait"   src="/images/A.jpg" mode="scaleToFill"> </image>
+      </view>
+      <view class = "name">
+        <test >王先生</test>
+      </view>
+    </view>
+    <view class = "commentContent">
+      <test >{{commentContent}}</test>
+    </view>
+  </view>
+</view>
+</scroll-view>
+<view class="inputRoom" >
+添加评论：
+<input placeholder="输入评论内容"></input>
+<button  type="primary" size="mini"  >发布</button>
+</view>
+</view>

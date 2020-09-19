@@ -1,0 +1,42 @@
+<!--index.wxml-->
+<scroll-view scroll-y="true" style="height: 100%;"  >
+  <view class="first">
+ <view class="weui-cell weui-cell_input">
+        <input class="search"  placeholder="搜索"></input>
+  </view>
+    <view class="page-section page-section-spacing swiper">
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item {{item}}">
+            <image src="{{item}}" style="width: 100%" mode="scaleToFill"></image>
+            </view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+   
+    <view class="title">
+     <test>筹款项目</test>
+    </view>
+    <view class="content">
+      <view class="oneblock " catchtap="projects"  wx:for="{{contentItems}}">
+         <image src="/images/I.jpg" style="height:100%;width:100%" mode="scaleToFill"></image>
+         <view class="character">
+          <test class="written">模块项目测试</test>
+         </view>
+         <view class = "head">
+            <image class="portrait"   src="/images/A.jpg" mode="scaleToFill">
+            </image>
+         </view>
+         <view class = "name">
+            <test >王先生</test>
+         </view>
+
+
+      </view>
+      
+    </view>
+  </view>
+</scroll-view>

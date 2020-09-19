@@ -1,0 +1,18 @@
+
+.endBorder{
+  border-bottom-width: 4rpx;
+  border-block-end-color: rgb(45, 129, 224);
+  border-bottom-style: solid;
+}
+
+.wether{
+  width: 100%;
+  display: flex;
+  justify-content:flex-end;
+  padding-top: 3%;
+}
+
+.oneButton{
+  position: relative;
+  top: 80rpx;
+}
